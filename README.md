@@ -22,3 +22,8 @@ Install npm
 ```
 npm install
 ```
+
+Migrate Database
+```
+php artisan migrate
+```
