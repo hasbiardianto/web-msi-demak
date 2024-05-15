@@ -21,7 +21,7 @@ Route::get('/logout', [AuthController::class, 'logout']);
 Route::get('/dashboard', [DashboardController::class,'Dashboard'])->middleware(['auth']);
 
 //home
-Route::get('/', [HomeController::class, 'index']);
+Route::get('/', [HomeController::class, 'index'])->middleware('visitor');
 Route::get('contact',[HomeController::class, 'contact']);
 Route::get('tentangKami',[HomeController::class, 'tentangKami']);
 Route::get('tentangKamiDemak',[HomeController::class, 'tentangKamiDemak']);

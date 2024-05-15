@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "982c9b583a5eb3b406ccb46123575eb2",
+    "content-hash": "bf1cd689d15ae368768a891e9741807f",
     "packages": [
         {
             "name": "brick/math",
@@ -2043,6 +2043,65 @@
                 }
             ],
             "time": "2024-01-28T23:22:08+00:00"
+        },
+        {
+            "name": "masoudi/laravel-visitors",
+            "version": "1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/rezamasoudi/laravel-visitors.git",
+                "reference": "a61c65b3c6a0936dc4038d72d07804a10dde0491"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/rezamasoudi/laravel-visitors/zipball/a61c65b3c6a0936dc4038d72d07804a10dde0491",
+                "reference": "a61c65b3c6a0936dc4038d72d07804a10dde0491",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^8.0"
+            },
+            "require-dev": {
+                "orchestra/testbench": "^6.0"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Masoudi\\Laravel\\Visitors\\Providers\\VisitorServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "files": [
+                    "src/helpers.php"
+                ],
+                "psr-4": {
+                    "Masoudi\\Laravel\\Visitors\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Reza Masoudi",
+                    "email": "dev.masoudi@gmail.com"
+                }
+            ],
+            "description": "Laravel package for tracking visitors",
+            "homepage": "https://github.com/rezamasoudi/laravel-visitors",
+            "keywords": [
+                "laravel",
+                "package",
+                "visitors"
+            ],
+            "support": {
+                "issues": "https://github.com/rezamasoudi/laravel-visitors/issues",
+                "source": "https://github.com/rezamasoudi/laravel-visitors/tree/1.1"
+            },
+            "time": "2023-10-02T17:12:24+00:00"
         },
         {
             "name": "monolog/monolog",
